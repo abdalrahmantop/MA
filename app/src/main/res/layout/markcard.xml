@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    android:layout_margin="12dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/name_mark"
+                android:text="Mark name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#222222"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/Edit_mark"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/editTextBackground"
+                android:hint="0"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/ButtonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#0077B6"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/deleteMarkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Delete"
+            android:textColor="#FF0000"
+            android:backgroundTint="#FFE0E0"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

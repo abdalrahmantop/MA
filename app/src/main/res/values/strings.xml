@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Schoolproj</string>
+    <string name="school_name">Al-Tamayoz School</string>
+    <string name="homework_section">Homework</string>
+    <string name="title_label">Title:</string>
+    <string name="title_hint">Enter Homework Title</string>
+    <string name="description_label">Description:</string>
+    <string name="description_hint">Enter Homework Description</string>
+    <string name="due_date_label">Due Date:</string>
+    <string name="due_date_hint">Select Due Date</string>
+    <string name="attach_file_label">Attach File:</string>
+    <string name="choose_file">Choose File</string>
+    <string name="no_file_chosen">No file chosen</string>
+    <string name="file_path_hint">Or enter file path manually</string>
+    <string name="save_homework">Save Homework</string>
+
+
+</resources>
